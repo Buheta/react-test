@@ -27,7 +27,6 @@ import SchoolLevels from './components/schoolLevels';
 import InfoWithAlbum from './components/InfoWithAlbum';
 import TextImageSlider from './components/objectivePage';
 import FooterDetails from './components/footerDetails';
-import Footer from './components/Footer';
 import HomeForPages from './components/homeForPages';
 import NewsFeature from './components/newsEvents';
 import SportsPage from './pages/sportsPage';
@@ -37,6 +36,7 @@ import RubavuBlogPage from './pages/rubavuSchoolBlog';
 import ProgramsOfferedPage from './pages/programsOfferedPage';
 import ContactUs from './components/ContactUs';
 import AboutUs from './components/aboutUs';
+import Footer from './components/Footer';
 
 // Homepage layout component
 const HomePage = () => (
