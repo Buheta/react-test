@@ -1,27 +1,42 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+// import Navbar from './components/Navbar';
+// import HeroSlider from './components/HeroSlider'
+// import InfoWithAlbum from './components/InfoWithAlbum'
+// import NewsFeature from './components/newsEvents'
+// import Application from './components/application'
+// import FooterDetails from './components/footerDetails'
+// import ContactUs from './components/ContactUs';
+// import HomeForPages from './components/homeForPages';
+// import AboutUs from './components/aboutUs';
+// import SchoolLevels from './components/schoolLevels';
+// import AcademicsPage from './components/academicsPage';
+// import ProgramsOfferedPage from './pages/programsOfferedPage';
+// import SportsPage from './pages/sportsPage';
+// import SpiritualPage from './pages/spiritualLifePage';
+// import KigaliBlogPage from './pages/kigaliSchoolBlog';
+// import RubavuBlogPage from './pages/rubavuSchoolBlog';
+// import Gallery from './pages/Gallery';
+// import TextImageSlider from './components/objectivePage';
+// import DirectorMessage from './components/directorMessage';
+// import Footer from './components/Footer';
+import ClubsPage from './pages/ClubsPage';
 import Navbar from './components/Navbar';
-import HeroSlider from './components/HeroSlider'
-import InfoWithAlbum from './components/InfoWithAlbum'
-import NewsFeature from './components/newsEvents'
-import Application from './components/application'
-import FooterDetails from './components/footerDetails'
-import ContactUs from './components/ContactUs';
-import HomeForPages from './components/homeForPages';
-import AboutUs from './components/aboutUs';
 import SchoolLevels from './components/schoolLevels';
-import AcademicsPage from './components/academicsPage';
-import ProgramsOfferedPage from './pages/programsOfferedPage';
+import InfoWithAlbum from './components/InfoWithAlbum';
+import TextImageSlider from './components/objectivePage';
+import FooterDetails from './components/footerDetails';
+import Footer from './components/Footer';
+import HomeForPages from './components/homeForPages';
+import NewsFeature from './components/newsEvents';
 import SportsPage from './pages/sportsPage';
 import SpiritualPage from './pages/spiritualLifePage';
 import KigaliBlogPage from './pages/kigaliSchoolBlog';
 import RubavuBlogPage from './pages/rubavuSchoolBlog';
-import Gallery from './pages/gallery';
-import TextImageSlider from './components/objectivePage';
-import DirectorMessage from './components/directorMessage';
-import Footer from './components/Footer';
-import ClubsPage from './pages/ClubsPage';
+import ProgramsOfferedPage from './pages/programsOfferedPage';
+import ContactUs from './components/ContactUs';
+import AboutUs from './components/aboutUs';
 
 // Homepage layout component
 const HomePage = () => (
