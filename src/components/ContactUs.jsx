@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import HomeForPages from './homeForPages';
-import Footer from './Footer';
+import Footer from './footer';
 
 const ContactUs = () => {
     const [formData, setFormData] = useState({

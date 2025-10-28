@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 // Example images
-import img1 from "../assets/gallery/gallery1.jpg";
-import img2 from "../assets/gallery/gallery2.jpg";
-import img3 from "../assets/gallery/gallery3.jpg";
+import img1 from "../assets/gallery/gallery1.JPG";
+import img2 from "../assets/gallery/gallery2.JPG";
+import img3 from "../assets/gallery/gallery3.JPG";
 
 const images = [img1, img2, img3];
 

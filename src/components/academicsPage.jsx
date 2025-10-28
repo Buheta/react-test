@@ -6,7 +6,7 @@ import {
   BeakerIcon,
 } from '@heroicons/react/24/outline';
 import Navbar from './Navbar';
-import Footer from './Footer';
+import Footer from './footer';
 
 const academicSections = [
   {

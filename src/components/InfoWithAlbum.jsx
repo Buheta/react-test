@@ -1,7 +1,7 @@
-import img1 from "../assets/images/galleryHome.jpg";
-import img2 from "../assets/images/gallery13.jpg";
-import img3 from "../assets/images/gallery25.jpg";
-import img4 from "../assets/images/gallery31.jpg";
+import img1 from "../assets/images/galleryHome.JPG";
+import img2 from "../assets/images/gallery13.JPG";
+import img3 from "../assets/images/gallery25.JPG";
+import img4 from "../assets/images/gallery31.JPG";
 
 export default function InfoWithAlbum() {
     return (

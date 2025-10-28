@@ -1,9 +1,9 @@
 // SchoolLevels.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import prim1 from '../assets/images/nursery.jpg';
-import prim2 from "../assets/images/primary.jpg";
-import prim4 from "../assets/images/highSchool.jpg";
+import prim1 from '../assets/images/nursery.JPG';
+import prim2 from "../assets/images/primary.JPG";
+import prim4 from "../assets/images/highSchool.JPG";
 
 const schoolLevels = [
     {

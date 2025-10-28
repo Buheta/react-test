@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
-import coun from "../assets/images/highSchool.jpg";
-import caree from "../assets/gallery/gallery4.jpg";
-import tut from "../assets/gallery/gallery23.jpg";
-import Footer from '../components/Footer';
+import coun from "../assets/images/highSchool.JPG";
+import caree from "../assets/gallery/gallery4.JPG";
+import tut from "../assets/gallery/gallery23.JPG";
+import Footer from '../components/footer';
 
 
 const programs = [

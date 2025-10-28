@@ -32,7 +32,7 @@ import gallery27 from "../assets/gallery/gallery27.JPG";
 import gallery28 from "../assets/gallery/gallery28.JPG";
 import gallery29 from "../assets/gallery/gallery29.JPG";
 import gallery30 from "../assets/gallery/gallery30.JPG";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 
 const images = [
   gallery1, gallery2, gallery3, gallery4, gallery5,

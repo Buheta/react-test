@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { FaBook, FaHeart, FaStar, FaLightbulb, FaBullseye, FaHandsHelping, FaCompass,FaSchool,FaUserGraduate} from "react-icons/fa";
 import Navbar from "../components/Navbar";
-import Footer from "./Footer";
+import Footer from "./footer";
 import FooterDetails from "./footerDetails";
 import pris from "../assets/images/pri.jpg";
 import wisdom from "../assets/images/wisdom.jpg";
