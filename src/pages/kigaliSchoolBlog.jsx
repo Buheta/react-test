@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { Search, User, Calendar, Tag, Mail, Phone, MapPin, Menu } from "lucide-react";
+import { Search, User, Calendar,  Mail, Phone, MapPin, Menu } from "lucide-react";
 
 const samplePosts = [
   {

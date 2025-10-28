@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import HomeForPages from './homeForPages';
-import FooterDetails from './footerDetails';
 import Footer from './Footer';
 
 const ContactUs = () => {

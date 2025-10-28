@@ -8,9 +8,6 @@ import 'swiper/css/pagination';
 import event1 from '../assets/images/activeL.jpg';
 import event2 from '../assets/images/activeL.jpg';
 import event3 from '../assets/images/grad.jpg';
-import Navbar from './Navbar';
-import FooterDetails from './footerDetails';
-import HomeForPages from './homeForPages';
 
 const eventsData = [
     {
