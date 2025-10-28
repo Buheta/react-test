@@ -2,37 +2,37 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 // Import images
-import gallery1 from "../assets/gallery/gallery1.jpg";
-import gallery2 from "../assets/gallery/gallery2.jpg";
-import gallery3 from "../assets/gallery/gallery3.jpg";
-import gallery4 from "../assets/gallery/gallery4.jpg";
-import gallery5 from "../assets/gallery/gallery5.jpg";
-import gallery6 from "../assets/gallery/gallery6.jpg";
-import gallery7 from "../assets/gallery/gallery7.jpg";
-import gallery8 from "../assets/gallery/gallery8.jpg";
-import gallery9 from "../assets/gallery/gallery9.jpg";
-import gallery10 from "../assets/gallery/gallery10.jpg";
-import gallery11 from "../assets/gallery/gallery11.jpg";
-import gallery12 from "../assets/gallery/gallery12.jpg";
-import gallery13 from "../assets/gallery/gallery13.jpg";
-import gallery14 from "../assets/gallery/gallery14.jpg";
-import gallery15 from "../assets/gallery/gallery15.jpg";
-import gallery16 from "../assets/gallery/gallery16.jpg";
-import gallery17 from "../assets/gallery/gallery17.jpg";
-import gallery18 from "../assets/gallery/gallery18.jpg";
-import gallery19 from "../assets/gallery/gallery19.jpg";
-import gallery20 from "../assets/gallery/gallery20.jpg";
-import gallery21 from "../assets/gallery/gallery21.jpg";
-import gallery22 from "../assets/gallery/gallery22.jpg";
-import gallery23 from "../assets/gallery/gallery23.jpg";
-import gallery24 from "../assets/gallery/gallery24.jpg";
-import gallery25 from "../assets/gallery/gallery25.jpg";
-import gallery26 from "../assets/gallery/gallery26.jpg";
-import gallery27 from "../assets/gallery/gallery27.jpg";
-import gallery28 from "../assets/gallery/gallery28.jpg";
-import gallery29 from "../assets/gallery/gallery29.jpg";
-import gallery30 from "../assets/gallery/gallery30.jpg";
-import FooterDetails from "../components/footerDetails";
+import gallery1 from "../assets/gallery/gallery1.JPG";
+import gallery2 from "../assets/gallery/gallery2.JPG";
+import gallery3 from "../assets/gallery/gallery3.JPG";
+import gallery4 from "../assets/gallery/gallery4.JPG";
+import gallery5 from "../assets/gallery/gallery5.JPG";
+import gallery6 from "../assets/gallery/gallery6.JPG";
+import gallery7 from "../assets/gallery/gallery7.JPG";
+import gallery8 from "../assets/gallery/gallery8.JPG";
+import gallery9 from "../assets/gallery/gallery9.JPG";
+import gallery10 from "../assets/gallery/gallery10.JPG";
+import gallery11 from "../assets/gallery/gallery11.JPG";
+import gallery12 from "../assets/gallery/gallery12.JPG";
+import gallery13 from "../assets/gallery/gallery13.JPG";
+import gallery14 from "../assets/gallery/gallery14.JPG";
+import gallery15 from "../assets/gallery/gallery15.JPG";
+import gallery16 from "../assets/gallery/gallery16.JPG";
+import gallery17 from "../assets/gallery/gallery17.JPG";
+import gallery18 from "../assets/gallery/gallery18.JPG";
+import gallery19 from "../assets/gallery/gallery19.JPG";
+import gallery20 from "../assets/gallery/gallery20.JPG";
+import gallery21 from "../assets/gallery/gallery21.JPG";
+import gallery22 from "../assets/gallery/gallery22.JPG";
+import gallery23 from "../assets/gallery/gallery23.JPG";
+import gallery24 from "../assets/gallery/gallery24.JPG";
+import gallery25 from "../assets/gallery/gallery25.JPG";
+import gallery26 from "../assets/gallery/gallery26.JPG";
+import gallery27 from "../assets/gallery/gallery27.JPG";
+import gallery28 from "../assets/gallery/gallery28.JPG";
+import gallery29 from "../assets/gallery/gallery29.JPG";
+import gallery30 from "../assets/gallery/gallery30.JPG";
+import Footer from "../components/Footer";
 
 const images = [
   gallery1, gallery2, gallery3, gallery4, gallery5,
@@ -80,7 +80,7 @@ export default function Gallery() {
       </div>
 
       {/* Footer */}
-      <FooterDetails />
+      <Footer />
     </>
   );
 }

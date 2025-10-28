@@ -2,7 +2,7 @@ import React from "react";
 import bgImage from "../assets/images/wisdom.jpg"; // background image
 import sampleImage from "../assets/images/principal.jpg"; // left image
 
-const FixedBackgroundSection = () => {
+const DirectorMessage = () => {
   return (
     <div
       className="relative w-full min-h-screen bg-fixed bg-center bg-cover flex items-center justify-center"
@@ -61,4 +61,4 @@ const FixedBackgroundSection = () => {
   );
 };
 
-export default FixedBackgroundSection;
+export default DirectorMessage;

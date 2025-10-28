@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const HeroImage = () => {
+const HeroSlider = () => {
     return (
         <div className="relative w-screen h-[90vh] overflow-hidden mt-16">
             {/* 🎥 Video Background */}
@@ -44,4 +44,4 @@ const HeroImage = () => {
     );
 };
 
-export default HeroImage;
+export default HeroSlider;

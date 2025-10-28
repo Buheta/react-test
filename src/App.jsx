@@ -37,6 +37,11 @@ import ProgramsOfferedPage from './pages/programsOfferedPage';
 import ContactUs from './components/ContactUs';
 import AboutUs from './components/aboutUs';
 import Footer from './components/Footer';
+import HeroSlider from './components/HeroSlider';
+import DirectorMessage from './components/directorMessage';
+import Application from './components/application';
+import Gallery from './pages/Gallery';
+import AcademicsPage from './components/academicsPage';
 
 // Homepage layout component
 const HomePage = () => (
@@ -45,7 +50,7 @@ const HomePage = () => (
     <HeroSlider />
     <SchoolLevels />
     <InfoWithAlbum />
-    <DirectorMessage/>
+    <DirectorMessage />
     {/* <WhatSetsUsApart /> */}
     <TextImageSlider/>
     {/* <NewsFeature /> */}
@@ -133,3 +138,5 @@ function App() {
 }
 
 export default App;
+
+
