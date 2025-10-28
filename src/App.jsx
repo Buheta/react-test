@@ -4,18 +4,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HeroSlider from './components/HeroSlider'
 import InfoWithAlbum from './components/InfoWithAlbum'
-import WhatSetsUsApart from './components/infoWith1'
 import NewsFeature from './components/newsEvents'
 import Application from './components/application'
 import FooterDetails from './components/footerDetails'
-import ContactUs from './components/contactUs'
+import ContactUs from './components/ContactUs';
 import HomeForPages from './components/homeForPages';
 import AboutUs from './components/aboutUs';
-import EventsSlider from './components/eventsSlider';
 import SchoolLevels from './components/schoolLevels';
 import AcademicsPage from './components/academicsPage';
 import ProgramsOfferedPage from './pages/programsOfferedPage';
-import ClubsPage from './pages/clubsPage';
 import SportsPage from './pages/sportsPage';
 import SpiritualPage from './pages/spiritualLifePage';
 import KigaliBlogPage from './pages/kigaliSchoolBlog';
@@ -24,6 +21,7 @@ import Gallery from './pages/gallery';
 import TextImageSlider from './components/objectivePage';
 import DirectorMessage from './components/directorMessage';
 import Footer from './components/Footer';
+import ClubsPage from './pages/ClubsPage';
 
 // Homepage layout component
 const HomePage = () => (
