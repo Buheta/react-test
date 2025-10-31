@@ -26,7 +26,7 @@ import HighSchoolSection from './pages/highSchool';
 import AboutUs from './components/aboutUs';
 
 import highImg from './assets/images/galleryHome.JPG';
-import primImg from './assets/images/primary.jpg'; // Ensure the correct case
+import primImg from './assets/images/primary.JPG'; // Ensure the correct case
 import nursImg from './assets/images/gallery38.JPG';
 import clubImg from './assets/images/spell3.jpg';
 import sportImg from './assets/images/pich.webp';
