@@ -31,7 +31,6 @@ import nursImg from './assets/images/gallery38.JPG';
 import clubImg from './assets/images/spell3.jpg';
 import sportImg from './assets/images/pich.webp';
 import homeImage from './assets/images/aboutImage.jpg';
-// ...rest of your existing code...
 
 // Homepage layout component
 const HomePage = () => (
