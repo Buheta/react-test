@@ -4,9 +4,9 @@ import "aos/dist/aos.css";
 
 // Main image and gallery photos (replace with your real images)
 import primaryMain from "../assets/images/primary.JPG";
-import primary1 from "../assets/images/primary1.jpg";
-import primary2 from "../assets/images/primary2.jpg";
-import primary3 from "../assets/images/primary3.jpg";
+import primary1 from "../assets/images/primary1.JPG";
+import primary2 from "../assets/images/primary2.JPG";
+import primary3 from "../assets/images/primary3.JPG";
 import primary4 from "../assets/images/gallery3.JPG";
 
 export default function PrimarySection() {

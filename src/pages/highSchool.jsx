@@ -3,11 +3,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // Replace these imports with your real image paths
-import highMain from "../assets/images/high1.jpg";
+import highMain from "../assets/images/high1.JPG";
 import high1 from "../assets/images/gallery19.jpg";
-import high2 from "../assets/images/high2.jpg";
-import high3 from "../assets/images/gallery7.jpg";
-import high4 from "../assets/images/galleryHome.jpg";
+import high2 from "../assets/images/high2.JPG";
+import high3 from "../assets/images/gallery7.JPG";
+import high4 from "../assets/images/galleryHome.JPG";
 
 export default function HighSchoolSection() {
   useEffect(() => {
