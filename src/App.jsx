@@ -44,12 +44,11 @@ import NurserySection from './pages/nursuryPage';
 import PrimarySection from './pages/primaryPage';
 import HighSchoolSection from './pages/highSchool';
 import highImg from '../src/assets/images/galleryHome.JPG';
-import primImg from '../src/assets/images/primary.JPG';
-import nursImg from '../src/assets/images/gallery38.JPG';
-import clubImg from '../src/assets/images/spell3.jpg';
-import sportImg from '../src/assets/images/pich.webp';
-import homeImage from '../src/assets/images/aboutImage.jpg';
-import aboutImage from '../src/assets/images/wisdom.jpg';
+import primImg from './assets/images/primary.JPG';
+import nursImg from './assets/images/gallery38.JPG';
+import clubImg from './assets/images/spell3.jpg';
+import sportImg from './assets/images/pich.webp';
+import homeImage from './assets/images/aboutImage.jpg';
 import AboutUs from './components/aboutUs';
 
 // Homepage layout component
