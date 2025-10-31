@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from "../assets/images/logo.jpg";
+import logo from "../assets/images/logo1.jpg";
 
 
 const menuItems = [
@@ -21,30 +21,30 @@ const menuItems = [
     //         { name: 'International', link: '/admissions/international' },
     //     ],
     // },
-    { name: 'Academics', link: '/Academic' },
-    // {
-    //     name: 'Academics',
-    //     dropdown: [
-    //         { name: 'Programs', link: '/academics/programs' },
-    //         { name: 'Faculties', link: '/academics/faculties' },
-    //         { name: 'Research', link: '/academics/research' },
-    //     ],
-    // },
+    // { name: 'Academics', link: '/Academic' },
+    {
+        name: 'Academics',
+        dropdown: [
+            { name: 'Nursery', link: '/academics/nursery' },
+            { name: 'Primary', link: '/academics/primary' },
+            { name: 'Wisdom High School', link: '/academics/highSchool' },
+        ],
+    },
     {
         name: 'Student Life',
         dropdown: [
             { name: 'Clubs', link: '/student-life/clubs' },
-            { name: 'Spiritual Life', link: '/student-life' },
+            // { name: 'Spiritual Life', link: '/student-life' },
             { name: 'Sports', link: '/student-life/sports' },
         ],
     },
-    {
-        name: 'News', link: '/campus-news'
-        // dropdown: [
-        //     { name: 'News', link: '/campus-news' },
-        //     { name: 'Events', link: '/events' },
-        // ],
-    },
+    // {
+    //     name: 'News', link: '/campus-news'
+    //     // dropdown: [
+    //     //     { name: 'News', link: '/campus-news' },
+    //     //     { name: 'Events', link: '/events' },
+    //     // ],
+    // },
     { name: 'Contact Us', link: '/contact' },
 ];
 

@@ -33,15 +33,24 @@ import SportsPage from './pages/sportsPage';
 import SpiritualPage from './pages/spiritualLifePage';
 import KigaliBlogPage from './pages/kigaliSchoolBlog';
 import RubavuBlogPage from './pages/rubavuSchoolBlog';
-import ProgramsOfferedPage from './pages/programsOfferedPage';
 import ContactUs from './components/ContactUs';
-import AboutUs from './components/aboutUs';
 import Footer from './components/footer';
 import HeroSlider from './components/HeroSlider';
 import DirectorMessage from './components/directorMessage';
 import Application from './components/application';
 import Gallery from './pages/Gallery';
 import AcademicsPage from './components/academicsPage';
+import NurserySection from './pages/nursuryPage';
+import PrimarySection from './pages/primaryPage';
+import HighSchoolSection from './pages/highSchool';
+import highImg from '../src/assets/images/galleryHome.JPG';
+import primImg from '../src/assets/images/primary.jpg';
+import nursImg from '../src/assets/images/gallery38.JPG';
+import clubImg from '../src/assets/images/spell3.jpg';
+import sportImg from '../src/assets/images/pich.webp';
+import homeImage from '../src/assets/images/aboutImage.jpg';
+import aboutImage from '../src/assets/images/wisdom.jpg';
+import AboutUs from './components/aboutUs';
 
 // Homepage layout component
 const HomePage = () => (
@@ -72,7 +81,7 @@ const CampusNewsPage = () => (
 const Clubs = () => (
   <>
   <Navbar/>
-  <HomeForPages title="Explore Our Clubs" />
+  <HomeForPages title="Explore Our Clubs" image={clubImg}/>
   <ClubsPage/>
   <FooterDetails />
   <Footer />
@@ -81,7 +90,7 @@ const Clubs = () => (
 const Sports = () => (
   <>
   <Navbar/>
-  <HomeForPages title="Explore Sports" />
+  <HomeForPages title="Explore Sports" image={sportImg}/>
   <SportsPage/>
   <FooterDetails />
   <Footer />
@@ -114,6 +123,49 @@ const GalleryP= () => (
   <Footer />
   </>
 );
+const Contact= () => (
+  <>
+  <Navbar/>
+  <HomeForPages title="Contact Us" image={homeImage}/>
+  <ContactUs/>
+  <Footer />
+  </>
+);
+const About= () => (
+  <>
+  <Navbar/>
+  <HomeForPages title="About Us" image={homeImage}/>
+  <AboutUs/>
+  <Footer />
+  </>
+);
+const NurseryPage = () => (
+  <>
+  <Navbar/>
+  <HomeForPages title="Wisdom School Nursery" image={nursImg}/>
+  <NurserySection/>
+  <FooterDetails />
+  <Footer />
+  </>
+);
+const PrimaryPage = () => (
+  <>
+  <Navbar/>
+  <HomeForPages title="Wisdom School Primary" image={primImg}/>
+  <PrimarySection/>
+  <FooterDetails />
+  <Footer />
+  </>
+);
+const HighSchoolPage = () => (
+  <>
+  <Navbar/>
+  <HomeForPages title="Wisdom High School" image={highImg}/>
+  <HighSchoolSection/>
+  <FooterDetails />
+  <Footer />
+  </>
+);
 
 function App() {
   return (
@@ -121,10 +173,12 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/campus-news" element={<CampusNewsPage />} />
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/aboutUs" element={<About />} />
         <Route path="/Academic" element={<AcademicsPage />} />
-        <Route path="/academics/programs" element={<ProgramsOfferedPage />} />
+        <Route path="/academics/nursery" element={<NurseryPage />} />
+        <Route path="/academics/primary" element={<PrimaryPage />} />
+        <Route path="/academics/highSchool" element={<HighSchoolPage />} />
         <Route path="/student-life/clubs" element={<Clubs/>} />
         <Route path="/student-life/sports" element={<Sports/>}/>
         <Route path="/student-life" element={<SpiritualP/>}/>

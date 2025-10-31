@@ -10,20 +10,11 @@ import {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Middle & Upper School */}
           <div>
-            <h3 className="text-lg font-bold text-white uppercase mb-3">Middle & Upper School</h3>
-            <p className="mb-1">(Grades 6–12)</p>
-            <p className="mb-1">1200 Street</p>
-            <p className="mb-1">Musanze</p>
-            <p className="mb-1">Phone: <a href="tel:+250785840994" className="hover:underline">+250-785-840994</a></p>
-          </div>
-  
-          {/* Lower School */}
-          <div>
-            <h3 className="text-lg font-bold text-white uppercase mb-3">Lower School</h3>
-            <p className="mb-1">(Grades TK–5)</p>
-            <p className="mb-1">Gisozi</p>
-            <p className="mb-1">Kigali</p>
-            <p className="mb-1">Phone: <a href="tel:+250785840994" className="hover:underline">+250-785-840994</a></p>
+            <h3 className="text-lg font-bold text-white uppercase mb-3">Contact Us</h3>
+             <p className="mb-1">Address: Musanze, Rwanda</p>
+            <p className="mb-1">Phone: <a href="tel:+250788478469" className="hover:underline">+250-788-478469,<br></br>+250-788-76880, +250-782-406217</a></p>
+            <p className="mb-1">P.O. Box: P.O. BOX 05, MUSANZE RWANDA</p>
+            <p className="mb-1">Web: <a href="https://www.wisdomschoolrwanda.com/" >wisdomschoolrwanda.com</a></p>
           </div>
 
            {/* Social Media */}
@@ -41,7 +32,7 @@ import {
                 <FaInstagram />
               </a>
               <a
-                href="https://twitter.com/khanlabschool"
+                href="https://x.com/wisdomschoolrwa?s=11&t=nNuS4yTbDD3MOlAfIbhzFw"
                 aria-label="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -50,7 +41,7 @@ import {
                 <FaXTwitter />
               </a>
               <a
-                href="https://facebook.com/khanlabschool"
+                href="#"
                 aria-label="Facebook"
                 target="_blank"
                 rel="noopener noreferrer"

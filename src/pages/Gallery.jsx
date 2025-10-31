@@ -32,7 +32,36 @@ import gallery27 from "../assets/gallery/gallery27.JPG";
 import gallery28 from "../assets/gallery/gallery28.JPG";
 import gallery29 from "../assets/gallery/gallery29.JPG";
 import gallery30 from "../assets/gallery/gallery30.JPG";
-import Footer from "../components/footer";
+import highSchool from "../assets/images/highSchool.JPG";
+import galleryHome from "../assets/images/galleryHome.JPG";
+import gallery33 from "../assets/images/gallery33.jpg";
+import gallery34 from "../assets/images/gallery34.JPG";
+import gallery35 from "../assets/images/gallery35.JPG";
+import gallery36 from "../assets/images/gallery36.JPG";
+import gallery37 from "../assets/images/gallery37.JPG";
+import gallery38 from "../assets/images/gallery38.JPG";
+import gallery39 from "../assets/images/gallery39.JPG";
+import gallery40 from "../assets/images/gallery40.JPG";
+import gallery41 from "../assets/images/gallery41.JPG";
+import gallery42 from "../assets/images/gallery42.JPG";
+import gallery43 from "../assets/images/gallery43.JPG";
+import gallery44 from "../assets/images/gallery44.JPG";
+import gallery45 from "../assets/images/gallery45.JPG";
+import gallery46 from "../assets/images/gallery46.JPG";
+import gallery47 from "../assets/images/gallery47.JPG";
+import gallery48 from "../assets/images/gallery48.JPG";
+import gallery49 from "../assets/images/gallery49.JPG";
+import gallery50 from "../assets/images/gallery50.JPG";
+import gallery51 from "../assets/images/gallery51.JPG";  
+import gallery52 from "../assets/images/gallery52.JPG";
+import gallery53 from "../assets/images/gallery53.JPG";
+import gallery54 from "../assets/images/gallery54.JPG";
+import gallery55 from "../assets/images/gallery55.JPG";
+import gallery56 from "../assets/images/gallery56.JPG";
+import gallery57 from "../assets/images/gallery57.JPG";
+import gallery58 from "../assets/images/gallery58.JPG";
+import gallery59 from "../assets/images/gallery59.JPG";
+import gallery60 from "../assets/images/gallery60.JPG";  
 
 const images = [
   gallery1, gallery2, gallery3, gallery4, gallery5,
@@ -41,6 +70,13 @@ const images = [
   gallery16, gallery17, gallery18, gallery19, gallery20,
   gallery21, gallery22, gallery23, gallery24, gallery25,
   gallery26, gallery27, gallery28, gallery29, gallery30,
+  highSchool,galleryHome,gallery33,gallery34,gallery35,
+  gallery36,gallery37,gallery38,gallery39, gallery40, 
+  gallery41, gallery42, gallery43, gallery44,
+  gallery45, gallery46, gallery47, gallery48, 
+  gallery49, gallery50,gallery51, gallery52, 
+  gallery53, gallery54, gallery55, gallery56,
+  gallery57, gallery58, gallery59, gallery60
 ];
 
 export default function Gallery() {
@@ -78,9 +114,6 @@ export default function Gallery() {
           ))}
         </div>
       </div>
-
-      {/* Footer */}
-      <Footer />
     </>
   );
 }

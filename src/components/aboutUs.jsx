@@ -1,11 +1,7 @@
 // AboutUs.jsx
 import { useState } from "react";
 import { FaBook, FaHeart, FaStar, FaLightbulb, FaBullseye, FaHandsHelping, FaCompass,FaSchool,FaUserGraduate} from "react-icons/fa";
-import Navbar from "../components/Navbar";
-import Footer from "./footer";
-import FooterDetails from "./footerDetails";
-import pris from "../assets/images/pri.jpg";
-import wisdom from "../assets/images/wisdom.jpg";
+import aime from "../assets/images/N.AIME.jpg";
 
 
 const sections = [
@@ -48,9 +44,9 @@ const sections = [
         {/* Principal Photo */}
         <div className="flex justify-center mb-6">
           <img
-            src={pris}
+            src={aime}
             alt="Principal NDUWAYESU Aime"
-            className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-md"
+            className="w-40 h-50 rounded-full object-cover border-5 border-blue-600 shadow-md"
           />
         </div>
   
@@ -260,38 +256,6 @@ const AboutUs = () => {
 
   return (
     <>
-      <Navbar />
-
-      {/* 🌄 Hero Section */}
-      <section
-        className="relative w-full h-[45vh] bg-cover bg-center flex items-center justify-center text-white"
-        style={{
-          backgroundImage:'`url(${aboutImage})`',
-        }}
-      >
-        <div className="relative h-[50vh] w-full flex items-center justify-center text-white overflow-hidden">
-        {/* Background Image */}
-        <img
-          src={wisdom}
-          alt="Wisdom Schools Rwanda"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-
-        {/* Dark Overlay */}
-        {/* <div className="absolute inset-0 bg-black bg-opacity-50"></div> */}
-
-        {/* Text Content */}
-        <div className="relative z-10 text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-4 animate-fadeIn">
-            About Wisdom Schools Rwanda
-          </h1>
-          {/* <p className="text-lg md:text-2xl text-gray-100 max-w-3xl mx-auto animate-fadeIn delay-200">
-            “Educating for Wisdom, Character, and Faith”
-          </p> */}
-        </div>
-      </div>
-
-      </section>
 
       {/* 🏫 Main Content */}
       <div className="bg-gray-100 px-6 md:px-16 py-12">
@@ -321,9 +285,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-
-      <FooterDetails />
-      <Footer />
     </>
   );
 };

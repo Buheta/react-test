@@ -1,25 +1,25 @@
 // SchoolLevels.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import prim1 from '../assets/images/nursery.JPG';
+import prim1 from '../assets/images/gallery38.JPG';
 import prim2 from "../assets/images/primary.JPG";
-import prim4 from "../assets/images/highSchool.JPG";
+import prim4 from "../assets/images/galleryHome.JPG";
 
 const schoolLevels = [
     {
         title: "Nursery School",
         image: prim1,
-        // link: "/nursery",
+        link: "/academics/nursery",
     },
     {
         title: "Primary School",
         image: prim2,
-        // link: "/primary",
+        link: "/academics/primary",
     },
     {
         title: "High School",
         image: prim4,
-        // link: "/high",
+        link: "/academics/highSchool",
     },
 ];
 

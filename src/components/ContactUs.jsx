@@ -1,8 +1,5 @@
 // ContactUs.jsx
 import React, { useState } from 'react';
-import Navbar from './Navbar';
-import HomeForPages from './homeForPages';
-import Footer from './footer';
 
 const ContactUs = () => {
     const [formData, setFormData] = useState({
@@ -26,8 +23,7 @@ const ContactUs = () => {
 
     return (
         <>
-            <Navbar />
-            <HomeForPages title="Contact Us" />
+            {/* <HomeForPages title="Contact Us" /> */}
             <div className=" bg-gray-300 flex items-center justify-center p-8">
                 <div className="bg-white shadow-lg rounded-lg w-full max-w-6xl p-8 flex flex-col md:flex-row gap-8">
                     {/* Left side: Contact Form */}
@@ -83,16 +79,15 @@ const ContactUs = () => {
                         <ul className="text-gray-700 space-y-4">
                             <li>
                                 <strong>Address:</strong><br />
-                                Rubavu<br />
-                                Musanze
+                                Musanze, Rwanda
                             </li>
                             <li>
                                 <strong>Phone:</strong><br />
-                                <a href="tel:+1234567890" className="text-blue-600 hover:underline">+250 (782) 406-217</a>
+                                <p className="mb-1">Phone: <a href="tel:+250788478469" className="hover:underline">+250-788-478469,<br></br>+250-788-76880, +250-782-406217</a></p>
                             </li>
                             <li>
                                 <strong>Email:</strong><br />
-                                <a href="mailto:info@example.com" className="text-blue-600 hover:underline">info@example.com</a>
+                                <a href="mailto:info@example.com" className="text-blue-600 hover:underline">info@wisdomschoolrwanda.com</a>
                             </li>
                             <li>
                                 <strong>Our schedule:</strong><br />
@@ -102,8 +97,6 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
-            {/* <FooterDetails /> */}
-            <Footer />
         </>
     );
 };
