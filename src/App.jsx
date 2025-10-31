@@ -44,7 +44,7 @@ import NurserySection from './pages/nursuryPage';
 import PrimarySection from './pages/primaryPage';
 import HighSchoolSection from './pages/highSchool';
 import highImg from '../src/assets/images/galleryHome.JPG';
-import primImg from './assets/images/primary.JPG';
+import primImg from '../src/assets/images/primary.JPG';
 import nursImg from './assets/images/gallery38.JPG';
 import clubImg from './assets/images/spell3.jpg';
 import sportImg from './assets/images/pich.webp';
