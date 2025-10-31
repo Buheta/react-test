@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { Search, User, Calendar,  Mail, Phone, MapPin, Menu } from "lucide-react";
 
 const samplePosts = [
@@ -48,7 +48,6 @@ const categories = ["All", "Announcements", "Events", "Academic", "Community","O
 export default function RubavuBlogPage() {
   const [query, setQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState("All");
-  const [selectedPost, setSelectedPost] = useState(null);
   const [activePage, setActivePage] = useState("home");
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -145,7 +144,7 @@ export default function RubavuBlogPage() {
                   <h2 className="text-lg font-semibold">Latest Posts</h2>
                   <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
                     {filteredPosts.map((post) => (
-                      <motion.article key={post.id} layout whileHover={{ scale: 1.02 }} className="bg-white rounded-2xl shadow-sm overflow-hidden">
+                      <article key={post.id} className="bg-white rounded-2xl shadow-sm overflow-hidden">
                         <img src={post.image} alt={post.title} className="w-full h-40 object-cover" />
                         <div className="p-4">
                           <h3 className="text-md font-semibold">{post.title}</h3>
@@ -155,7 +154,7 @@ export default function RubavuBlogPage() {
                             <Calendar className="w-4 h-4 ml-2" /> <time>{post.date}</time>
                           </div>
                         </div>
-                      </motion.article>
+                      </article>
                     ))}
                   </div>
                 </div>

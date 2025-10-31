@@ -30,7 +30,7 @@ export default function ClubsPage() {
       setSpellingIndex((prev) => (prev + 1) % spellingImages.length);
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [chineseImages.length, spellingImages.length]);
 
   return (
     <div className="w-full bg-gradient-to-b from-gray-50 to-gray-100">
