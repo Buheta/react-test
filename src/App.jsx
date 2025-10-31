@@ -1,26 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// import Navbar from './components/Navbar';
-// import HeroSlider from './components/HeroSlider'
-// import InfoWithAlbum from './components/InfoWithAlbum'
-// import NewsFeature from './components/newsEvents'
-// import Application from './components/application'
-// import FooterDetails from './components/footerDetails'
-// import ContactUs from './components/ContactUs';
-// import HomeForPages from './components/homeForPages';
-// import AboutUs from './components/aboutUs';
-// import SchoolLevels from './components/schoolLevels';
-// import AcademicsPage from './components/academicsPage';
-// import ProgramsOfferedPage from './pages/programsOfferedPage';
-// import SportsPage from './pages/sportsPage';
-// import SpiritualPage from './pages/spiritualLifePage';
-// import KigaliBlogPage from './pages/kigaliSchoolBlog';
-// import RubavuBlogPage from './pages/rubavuSchoolBlog';
-// import Gallery from './pages/Gallery';
-// import TextImageSlider from './components/objectivePage';
-// import DirectorMessage from './components/directorMessage';
-// import Footer from './components/footer';
 import ClubsPage from './pages/ClubsPage';
 import Navbar from './components/Navbar';
 import SchoolLevels from './components/schoolLevels';
@@ -43,13 +23,15 @@ import AcademicsPage from './components/academicsPage';
 import NurserySection from './pages/nursuryPage';
 import PrimarySection from './pages/primaryPage';
 import HighSchoolSection from './pages/highSchool';
-import highImg from '../src/assets/images/galleryHome.JPG';
-import primImg from './assets/images/primary.JPG';
+import AboutUs from './components/aboutUs';
+
+import highImg from './assets/images/galleryHome.JPG';
+import primImg from './assets/images/primary.jpg'; // Ensure the correct case
 import nursImg from './assets/images/gallery38.JPG';
 import clubImg from './assets/images/spell3.jpg';
 import sportImg from './assets/images/pich.webp';
 import homeImage from './assets/images/aboutImage.jpg';
-import AboutUs from './components/aboutUs';
+// ...rest of your existing code...
 
 // Homepage layout component
 const HomePage = () => (
